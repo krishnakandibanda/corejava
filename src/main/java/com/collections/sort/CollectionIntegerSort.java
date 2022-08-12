@@ -17,7 +17,7 @@ public class CollectionIntegerSort {
 		numbers.add(12);
 		numbers.add(1);
 
-		System.out.println("Ascending Order Sorting -using sort()-");
+		System.out.println("Ascending Order Sorting -using sort()-----");
 
 		Collections.sort(numbers);
 		for (Integer integer : numbers) {

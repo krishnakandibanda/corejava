@@ -31,12 +31,14 @@ public class SevenTypeOfIterateThroughList {
 
 		// Simple For loop
 		System.out.println("==============> 1. Simple For loop Example.");
+
 		for (int i = 0; i < crunchifyList.size(); i++) {
 			System.out.println(crunchifyList.get(i));
 		}
 
 		// New Enhanced For loop
 		System.out.println("\n==============> 2. New Enhanced For loop Example..");
+
 		for (String temp : crunchifyList) {
 			System.out.println(temp);
 		}
@@ -64,6 +66,7 @@ public class SevenTypeOfIterateThroughList {
 
 		// while loop
 		System.out.println("\n==============> 5. While Loop Example....");
+
 		int i = 0;
 		while (i < crunchifyList.size()) {
 			System.out.println(crunchifyList.get(i));
@@ -71,6 +74,7 @@ public class SevenTypeOfIterateThroughList {
 		}
 		// Do while loop
 		System.out.println("------>  Do-While loop ----");
+
 		if (crunchifyList.size() > 0) {
 			int j = 0;
 			do {
@@ -92,5 +96,6 @@ public class SevenTypeOfIterateThroughList {
 		System.out.println("\n==============> 7. Stream.forEach() Example....");
 
 		crunchifyList.stream().forEach((crunchifyTemp) -> System.out.println(crunchifyTemp));
+
 	}
 }

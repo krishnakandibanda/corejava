@@ -6,7 +6,7 @@ public class DuplicateElementsInArray {
 	public static void main(String[] args) {
 
 		int index = 0;
-		int[] arr = { 10, 20, 20, 50, 50, 45 };
+		int[] arr = { 30, 20, 20, 10, 50, 10 };
 		int size = arr.length;
 		int[] revDup = new int[size];
 		System.out.println("Before removing duplicate from the array:");
@@ -34,6 +34,7 @@ public class DuplicateElementsInArray {
 		for (int i = 0; i < index; i++) {
 			System.out.print(arr[i] + ",");
 		}
+		uniqueArray();
 	}
 
 	static void ascendingValueinArray() {
@@ -79,7 +80,7 @@ public class DuplicateElementsInArray {
 			}
 		}
 		uniqueArr[counter] = arr[arr.length - 1];
-		System.out.println("Array with Unique Elements : ");
+		System.out.println("\nArray with Unique Elements : ");
 		for (int i = 0; i <= counter; i++) {
 			System.out.print(uniqueArr[i] + " ");
 		}

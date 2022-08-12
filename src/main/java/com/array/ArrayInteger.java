@@ -58,7 +58,6 @@ public class ArrayInteger {
 			size = intarray[i];
 		}
 		return intarray;
-
 	}
 
 	public void enhancedForLoop(int[] array) {
@@ -70,7 +69,6 @@ public class ArrayInteger {
 	public static String[] returnArray() {
 		String[] stringArray = { "PM", "CM", "MP", "MLA" };
 		return stringArray;
-
 	}
 
 }

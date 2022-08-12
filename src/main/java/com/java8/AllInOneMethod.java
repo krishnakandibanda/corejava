@@ -43,6 +43,5 @@ public class AllInOneMethod {
 		int a = 5;
 		int to = a + cal.process(20, 10);
 		System.out.println("every call add 5,process(20,10)---" + to);
-
 	}
 }

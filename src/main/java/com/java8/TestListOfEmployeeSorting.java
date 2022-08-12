@@ -41,9 +41,7 @@ public class TestListOfEmployeeSorting {
 		});
 		System.out.println("--After -- Sort-By---Salary--");
 		emp.forEach(s -> System.out.println(s));
-
 		System.out.println("-----------------Use BY Lambda--------------------------------------");
-
 		System.out.println("After--Sort--Lambda--By--Id--");
 		// Lambda here
 		emp.sort((Employee e1, Employee e2) -> e1.getEmpId() - e2.getEmpId());

@@ -13,6 +13,7 @@ public class DefaultSize {
 		Integer[] nt = new Integer[5];
 		Double[] wD = new Double[5];
 		Character[] wC = new Character[5];
+		Boolean[] br = new Boolean[5];
 
 		for (int j = 0; j < 1; j++) {
 			System.out.println("Int -- " + i[j]);
@@ -25,6 +26,7 @@ public class DefaultSize {
 			System.out.println("int wrapper-- " + nt[j]);
 			System.out.println("Wrapper Double -- " + wD[j]);
 			System.out.println("Wrapper Character -- " + wC[j]);
+			System.out.println("Wrapper Boolean -- " + br[j]);
 
 		}
 	}
